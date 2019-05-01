@@ -21,6 +21,6 @@ This library provides APIs and classes needed to create a client application for
 	        implementation 'com.github.sabaos-sdk:messaging:0.1.0'
 	}
 	
-<text><text><br/>
- <H1>Sample application</H1>
+
+ <H1><br/>Sample application</H1>
  In order to get a better understading of the library, you can see our sample application <a href="https://github.com/sabaos-sdk/messaging-sample-app">here</a> which makes use of this library to receive messages and show them as notifcations.
