@@ -14,7 +14,7 @@
         android:allowBackup="true"
         android:supportsRtl="true">
         <service
-            android:name=".SabaClientService"
+            android:name=".ClientService"
             android:enabled="true"
             android:exported="true"></service>
     </application>
