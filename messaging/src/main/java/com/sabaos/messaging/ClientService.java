@@ -14,9 +14,9 @@ import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 
-public class SabaClientService extends IntentService {
+public class ClientService extends IntentService {
 
-    public SabaClientService() {
+    public ClientService() {
         super("MyIntentService");
     }
 
