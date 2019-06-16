@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MessagingLibrary.iml" filepath="$PROJECT_DIR$/MessagingLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/messaging/messaging.iml" filepath="$PROJECT_DIR$/messaging/messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-MDM Projects-messaging.iml" filepath="$PROJECT_DIR$/1-MDM Projects-messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messaging/messaging-messaging.iml" filepath="$PROJECT_DIR$/messaging/messaging-messaging.iml" />
     </modules>
   </component>
 </project>
