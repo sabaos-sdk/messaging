@@ -48,7 +48,7 @@ At this point your "SabaClientService" should look like this:
 	        // the data parameter is the message. You can manipulate it as you wish.
             }
 
-     }
+    }
 	
 4- Finally in the project's Manifest file, change "SabaClientService" tag, so it will look like this:
 
