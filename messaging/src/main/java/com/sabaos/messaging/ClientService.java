@@ -26,30 +26,29 @@ public class ClientService extends IntentService {
         // This is necessary for service to run, otherwise Android will destroy it after 5 secs.
         NotificationManager notificationManager;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            CharSequence name = "My_channel1";
-            String description = "Saba_channel1";
+            CharSequence name = "SABA_CHANNEL";
+            String description = "SABA_CHANNEL_DESCRIPTION";
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
-            NotificationChannel channel = new NotificationChannel("41", name, importance);
+            String channelId = "SABA_CHANNEL_ID";
+            NotificationChannel channel = new NotificationChannel(channelId, name, importance);
             channel.setDescription(description);
             // Register the channel with the system; you can't change the importance
             // or other notification behaviors after this
             notificationManager = getSystemService(NotificationManager.class);
             notificationManager.createNotificationChannel(channel);
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "41")
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), channelId)
                     .setSmallIcon(R.mipmap.ic_launcher)
-                    .setContentTitle("Saba Market")
+                    .setContentTitle("Saba Notification")
                     .setContentText("Initializing")
                     .setAutoCancel(false);
             startForeground(1, builder.build());
         } else {
-
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "123")
+            String channelId = "SABA_CHANNEL";
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), channelId)
                     .setSmallIcon(R.mipmap.ic_launcher)
-                    .setContentTitle("Saba Market")
+                    .setContentTitle("Saba Notification")
                     .setContentText("Initializing")
                     .setAutoCancel(false);
-            notificationManager = (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
-            notificationManager.notify(1, builder.build());
             startForeground(1, builder.build());
         }
 
