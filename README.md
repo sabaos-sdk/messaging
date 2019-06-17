@@ -18,7 +18,7 @@ This library provides APIs and classes needed to create a client application for
 <H3>Step 2. Add the dependency</H3>
 
 	dependencies {
-	        implementation 'com.github.sabaos-sdk:messaging:0.1.0'
+	        implementation 'com.github.sabaos-sdk:messaging:1.0.0'
 	}
 	
 <H3>Step 3. Add the required code</H3>
