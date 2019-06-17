@@ -3,7 +3,7 @@
 This library provides APIs and classes needed to create a client application for receiving messages(notifications) on smart phones.
 
 <br/>
-<H1>Download</H1>
+<H1>How to use</H1>
 
 <H3>Step 1. Add the JitPack repository to your root build file</H3>
 
