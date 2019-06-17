@@ -32,10 +32,10 @@ This library provides APIs and classes needed to create a client application for
 
 3- To receive the incoming messages override the "handleMessage()" method in "SabaClientService" file. You can do this by adding this code to the service:
 
-	@Override
+	    @Override
         public void handleMessage(String data){
 		
-	// the data parameter is the message. You can manipulate it as you wish.
+	    // the data parameter is the message. You can manipulate it as you wish.
         }
 	
 At this point your "SabaClientService" should look like this:
