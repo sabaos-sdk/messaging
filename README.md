@@ -45,7 +45,7 @@ At this point your "SabaClientService" should look like this:
             @Override
             public void handleMessage(String data){
 	
-	    // the data parameter is the message. You can manipulate it as you wish.
+	        // the data parameter is the message. You can manipulate it as you wish.
             }
 
         }
