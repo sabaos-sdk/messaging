@@ -1,5 +1,7 @@
 <H1>SabaOS-sdk messaging</H1>
 
+[![](https://jitpack.io/v/sabaos-sdk/messaging.svg)](https://jitpack.io/#sabaos-sdk/messaging)
+
 This library provides APIs and classes needed to create a client application for receiving messages(notifications) on smart phones.
 
 <br/>
